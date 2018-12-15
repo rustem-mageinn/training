@@ -2,8 +2,9 @@
 
 namespace Training\Test\Controller\Index;
 
+use \Magento\Framework\App\Action\Action;
 
-class Index extends \Magento\Framework\App\Action\Action
+class Index extends Action
 {
     private $resultRawFactory;
 
@@ -19,6 +20,7 @@ class Index extends \Magento\Framework\App\Action\Action
         //$this->getResponse()->appendBody('simple text');
 
         $resultRaw = $this->resultRawFactory->create();
-        $resultRaw->setContent('simple text');
+        $resultRaw->setContents('simple text');
+        return $resultRaw;
     }
 }
