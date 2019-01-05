@@ -15,6 +15,10 @@
     </type>
     -->
 
+    <type name="Magento\Catalog\Block\Product\View\Description">
+        <plugin name="product-view-description-plugin" type="Training\Test\Block\Product\View\Description"/>
+    </type>
+
     <type name="Magento\Framework\App\Router\NoRouteHandlerList">
         <arguments>
             <argument name="handlerClassesList" xsi:type="array">
