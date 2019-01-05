@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!--
     <type name="Magento\Framework\UrlInterface">
         <plugin name="training_test" type="Training\Test\Plugin\Model\Url"/>
     </type>
@@ -9,7 +10,6 @@
         <plugin name="training_test_1" type="Training\Test\Plugin\Block\Template" />
     </type>
 
-    <!--
     <type name="Magento\Catalog\Controller\Product\View">
         <plugin name="training_2" type="Training\Test\Plugin\Controller\Product\View"/>
     </type>
